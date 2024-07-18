@@ -22,7 +22,7 @@ const Topnav = () => {
   },
   {
     id: 5,
-    link: <button className=' text-green-600'>Hire me</button>
+    link: <button className=' outline-white outline-2 outline rounded-full p-2 md:text-sm text-xl font-bold text-orange-500'>Hire me</button>
   }
   ]
   // eslint-disable-next-line
@@ -31,7 +31,7 @@ const Topnav = () => {
 
   return (
     <>
-      <div className='flex justify-between w-full h-auto bg-transparent text-white py-4 px-8 z-20 fixed'>
+      <div className='flex justify-between w-full h-auto bg-transparent text-white py-4 px-6 z-20 fixed'>
         {/*Logo*/}
         <div>
           <h1 className='font-signature capitalize text-4xl font-bold' >Ayomide</h1>
