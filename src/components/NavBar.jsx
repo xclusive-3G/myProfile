@@ -1,4 +1,6 @@
 import React from 'react'
+import { CiMenuFries } from "react-icons/ci";
+
 
 const NavBar = () => {
     const links = [
@@ -28,12 +30,15 @@ const NavBar = () => {
       <div className='text-gray-300  font-semibold text-xl p-4 '>
         <h1 className=' font-signature text-3xl font-thin'>AYOMIDE</h1>
       </div>
-      <div className='flex text-gray-400 font-medium p-4 capitalize'>
-        <ul className='flex'> 
+      <div className='flex text-gray-400 font-medium p-4 capitalize '>
+        <ul className=' hidden md:flex'> 
           {links.map(link=>(
-              <li className='px-4 cursor-pointer hover:scale-125 duration-200 hover:uppercase' key={link.id}>{link.link}</li>
+              <li className='px-4 cursor-pointer hover:scale-125 duration-200 hover:text-green-500 hover:uppercase' key={link.id}>{link.link}</li>
           ))}
         </ul>
+        <div>
+        <CiMenuFries  size={35} className='flex md:hidden'/>
+        </div>
       </div>
     </div>
   )
