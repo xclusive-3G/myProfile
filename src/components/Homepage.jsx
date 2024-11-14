@@ -3,7 +3,7 @@ import  homeImage  from './Assets/images/displayImage.jpeg'
 import { FaArrowRight } from "react-icons/fa6";
 
 export const Homepage = () => {
-  const {navBar,NavSetState} = false
+  //const {navBar,NavSetState} = false
 
   return (
     <div className='w-full h-full   md:h-screen justify-center flex bg-gradient-to-b from-black to-gray-500 '>
