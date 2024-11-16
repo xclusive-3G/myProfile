@@ -26,7 +26,7 @@ const NavBar = () => {
         }
       ]
   return (
-    <div className=' justify-between flex w-full h-auto bg-black fixed'>
+    <div className=' justify-between flex w-full h-auto bg-black z-50 fixed'>
       <div className='text-gray-300  font-semibold text-xl p-4 '>
         <h1 className=' font-signature text-3xl font-thin'>AYOMIDE</h1>
       </div>
