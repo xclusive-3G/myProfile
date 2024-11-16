@@ -5,6 +5,8 @@ import tailwindImg from './Assets/images/experienceImg/tailwind.png'
 import jsImg from './Assets/images/experienceImg/js.png'
 import nodeImg from './Assets/images/experienceImg/js2.png'
 import pythonImg from './Assets/images/experienceImg/python.png'
+import github from './Assets/images/experienceImg/github.png'
+import bash from './Assets/images/experienceImg/bash.png'
 
 const Experience = () => {
     const experienceData = [
@@ -44,6 +46,19 @@ const Experience = () => {
             src: pythonImg,
             style: ' shadow-blue-600'
         },
+        {
+            id: 7,
+            title: 'github',
+            src: github,
+            style: ' shadow-gray-400'
+        },
+        {
+            id: 8,
+            title: 'bash',
+            src: bash,
+            style: ' shadow-black'
+        },
+
 
     ]
     return (
@@ -56,7 +71,7 @@ const Experience = () => {
                     {experienceData && experienceData.map(({ id, title, src, style }) => (
                         <div key={id} className={`shadow-md hover:scale-105 duration-200 py-2 rounded-lg ${style}`}>
                             <img src={src} alt='img' className='w-1/2 mx-auto ' />
-                            <p className='mt-4 text-white'>{title}</p>
+                            <p className='mt-4 text-white uppercase text-sm'>{title}</p>
                         </div>
                     ))}
                 </div>
