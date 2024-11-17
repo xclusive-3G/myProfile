@@ -1,5 +1,6 @@
 import React from 'react'
 import spaceWeb from './Assets/images/portfolio/spaceWeb.PNG'
+import portfolioImg from './Assets/images/portfolio/portfolio.PNG'
 
 const Portfolio = () => {
     const portfolio = [
@@ -8,6 +9,13 @@ const Portfolio = () => {
             imgscr:spaceWeb,
             demoLink:'https://spacetour022.netlify.app/',
             codeLink:'https://github.com/xclusive-3G/spaceTour'
+
+        },
+        {
+            id: 2,
+            imgscr:portfolioImg,
+            demoLink:'https://sekani-portfolio.netlify.app/',
+            codeLink:'https://github.com/xclusive-3G/myProfile'
 
         }
     ]

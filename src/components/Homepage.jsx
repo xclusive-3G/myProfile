@@ -7,7 +7,7 @@ export const Homepage = () => {
 
   return (
     <div name="home" className='w-full h-full   md:h-screen justify-center flex bg-gradient-to-b from-black to-gray-500 '>
-      <div className=' grid md:flex px-10  py-3 mt-6 md:grid-cols-2 md:w-3/4 h-full  items-center'>
+      <div className=' grid md:flex px-10  py-2 mt-5 md:grid-cols-2 md:w-3/4 h-full  items-center'>
         <div className='md:w-1/2 order-2 md:order-1 mt-4'>
           <h3 className='text-green-500 text-3xl font-bold md:pt-20 md:pb-4'>I'm a Software Developer.</h3>
           <p className='text-white'>I have 3 years of experience building and designing software. Currently,
