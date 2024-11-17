@@ -7,6 +7,7 @@ import nodeImg from './Assets/images/experienceImg/js2.png'
 import pythonImg from './Assets/images/experienceImg/python.png'
 import github from './Assets/images/experienceImg/github.png'
 import bash from './Assets/images/experienceImg/bash.png'
+import redux from './Assets/images/experienceImg/redux.png'
 
 const Experience = () => {
     const experienceData = [
@@ -57,7 +58,12 @@ const Experience = () => {
             title: 'bash',
             src: bash,
             style: ' shadow-black'
-        },
+        },{
+            id: 9,
+            title: 'Redux',
+            src: redux,
+            style: ' shadow-purple-500'
+        }
 
 
     ]
