@@ -4,8 +4,6 @@ import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-scroll"
 
 export const Homepage = () => {
-  //const {navBar,NavSetState} = false
-
   return (
     <div name="home" className='w-full h-full   md:h-screen justify-center flex bg-gradient-to-b from-black to-gray-500 '>
       <div className=' grid md:flex px-10  py-2 mt-5 md:grid-cols-2 md:w-3/4 h-full  items-center'>
