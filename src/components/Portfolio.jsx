@@ -1,26 +1,13 @@
 import React from 'react'
-import demo from './Assets/images/demo.png'
+import spaceWeb from './Assets/images/portfolio/spaceWeb.PNG'
 
 const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            imgscr:demo
-
-        },
-        {
-            id: 2,
-            imgscr:demo
-
-        },
-        {
-            id: 3,
-            imgscr:demo
-
-        },
-        {
-            id: 4,
-            imgscr:demo
+            imgscr:spaceWeb,
+            demoLink:'https://spacetour022.netlify.app/',
+            codeLink:'https://github.com/xclusive-3G/spaceTour'
 
         }
     ]
@@ -32,13 +19,13 @@ const Portfolio = () => {
                     <p className='py-4 text-white'>Check out some of my work right here.</p>
                 </div>
                 <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 '>
-                {portfolio && portfolio.map(({id,imgscr})=>(
+                {portfolio && portfolio.map(({id,imgscr,demoLink,codeLink})=>(
                     
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={imgscr} alt="" className=' rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center text-white'>
-                            <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'>Demo</button>
-                            <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'>Code</button>
+                            <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={demoLink}>Demo</a></button>
+                            <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={codeLink}>Code</a></button>
                         </div>
                     </div>
                 
