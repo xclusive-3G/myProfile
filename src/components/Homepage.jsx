@@ -23,7 +23,7 @@ export const Homepage = () => {
           </p>
         </div>
         <div className='order-1 mt-24 md:mt-2 pt-3 md:pt-0 md:order-2'>
-          <img className='mx-auto rounded-2xl w-full h-96 md:w-96 md:ml-10 ' src={homeImage} alt="HomeImage" srcset="" />
+          <img className='mx-auto rounded-2xl w-full h-96 md:w-72 md:ml-10 ' src={homeImage} alt="HomeImage" srcset="" />
         </div>
       </div>
     </div>
