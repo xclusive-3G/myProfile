@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { CiMenuFries } from "react-icons/ci";
 import {Link} from "react-scroll"
 import { MdClose } from "react-icons/md";
+import { motion } from 'framer-motion';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
@@ -31,7 +32,7 @@ const NavBar = () => {
   return (
     <div className=' justify-between flex w-full h-auto bg-black z-50 fixed'>
       <div className='text-gray-300  font-semibold text-xl p-4 '>
-        <h1 className=' font-signature text-3xl font-thin'>AYOMIDE</h1>
+        <motion.h1 className=' font-signature text-3xl font-thin' animate={{scale:1, x:-9}}>AYOMIDE</motion.h1>
       </div>
       <div className='flex text-gray-400 font-medium p-4 capitalize '>
         <ul className=' hidden md:flex'> 
