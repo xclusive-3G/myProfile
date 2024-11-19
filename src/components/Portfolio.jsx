@@ -2,6 +2,8 @@ import React from 'react'
 import spaceWeb from './Assets/images/portfolio/spaceWeb.PNG'
 import portfolioImg from './Assets/images/portfolio/portfolio.PNG'
 import ccusingann from './Assets/images/portfolio/cc_using_ann.PNG'
+import { motion } from 'framer-motion'
+
 
 const Portfolio = () => {
     const portfolio = [
@@ -37,13 +39,23 @@ const Portfolio = () => {
                 <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 '>
                 {portfolio && portfolio.map(({id,imgscr,demoLink,codeLink})=>(
                     
-                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                    <motion.div key={id} className='shadow-md shadow-gray-600 rounded-lg'
+                        initial={{
+                            y:'100vh'
+                        }}
+                        animate={{
+                            y:0
+                        }}
+                        transition={{
+                            duration:10,  stiffness:10, type:'spring'
+                        }}
+                    >
                         <img src={imgscr} alt="" className=' rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center text-white'>
                             <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={demoLink}>Demo</a></button>
                             <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={codeLink}>Code</a></button>
                         </div>
-                    </div>
+                    </motion.div>
                 
                 ))}
                 </div>

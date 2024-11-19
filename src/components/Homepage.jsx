@@ -34,7 +34,7 @@ export const Homepage = () => {
               animate={{
                 x:0
               }}
-              transition={{delay:3,duration:1}}
+              transition={{delay:3,duration:1,type:'spring', stiffness:500}}
             >
              
                 <span className='p-1.5 '>Portfolio</span>
@@ -48,7 +48,7 @@ export const Homepage = () => {
           <motion.img className='mx-auto rounded-2xl w-full h-96 md:w-80 md:ml-16 ' src={homeImage} alt="HomeImage" srcset="" 
             initial={{opacity:0}}
             animate={{opacity:1}}
-            transition={{duration:2}}
+            transition={{duration:10}}
           />
         </div>
       </div>
