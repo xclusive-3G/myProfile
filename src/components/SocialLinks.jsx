@@ -2,6 +2,8 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsFillPersonLinesFill } from "react-icons/bs"
+import { motion } from 'framer-motion';
+
 const SocialLinks = () => {
     const links = [
         {
@@ -43,7 +45,17 @@ const SocialLinks = () => {
         }
     ]
     return (
-        <div className='hidden md:flex flex-col top-[35%] left-0 fixed'>
+        <motion.div className='hidden md:flex flex-col top-[35%] left-0 fixed'
+            initial={{
+                opacity:0
+            }}
+            animate={{
+                opacity:1
+            }}
+            transition={{
+                duration:4
+            }}
+        >
             <ul>
                 {links.map(link=>(
                     <li key={link.id} className={'flex justify-center items-center p-4 w-36 h-14 bg-gray-800 font-bold text-sm duration-100 ml-[-100px] hover:ml-[-10px] ' + link.style}>
@@ -54,7 +66,7 @@ const SocialLinks = () => {
                 ))}
                 
             </ul>
-        </div>
+        </motion.div>
     )
 }
 

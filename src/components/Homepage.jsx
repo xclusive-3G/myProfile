@@ -34,6 +34,7 @@ export const Homepage = () => {
               animate={{
                 x:0
               }}
+              transition={{delay:3,duration:1}}
             >
              
                 <span className='p-1.5 '>Portfolio</span>
