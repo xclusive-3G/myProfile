@@ -41,13 +41,13 @@ const Portfolio = () => {
                     
                     <motion.div key={id} className='shadow-md shadow-gray-600 rounded-lg'
                         initial={{
-                            y:'100vh'
+                            y:'-100vh'
                         }}
                         animate={{
                             y:0
                         }}
                         transition={{
-                            duration:10,  stiffness:10, type:'spring'
+                            duration:3,  stiffness:500, type:'spring'
                         }}
                     >
                         <img src={imgscr} alt="" className=' rounded-md duration-200 hover:scale-105' />
