@@ -34,7 +34,7 @@ export const Homepage = () => {
               animate={{
                 x:0
               }}
-              transition={{delay:3,duration:1,type:'spring', stiffness:500}}
+              transition={{delay:3,duration:1,type:'spring', stiffness:80}}
             >
              
                 <span className='p-1.5 '>Portfolio</span>

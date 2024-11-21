@@ -2,6 +2,8 @@ import React from 'react'
 import spaceWeb from './Assets/images/portfolio/spaceWeb.PNG'
 import portfolioImg from './Assets/images/portfolio/portfolio.PNG'
 import ccusingann from './Assets/images/portfolio/cc_using_ann.PNG'
+import modal from './Assets/images/portfolio/modal.PNG'
+
 import { motion } from 'framer-motion'
 
 
@@ -26,6 +28,13 @@ const Portfolio = () => {
             imgscr:ccusingann,
             demoLink:'#',
             codeLink:'https://github.com/xclusive-3G/-Credit-Card-detection-using-ANN/blob/main/Fraud%20Detection.ipynb'
+
+        },
+        {
+            id: 4,
+            imgscr:modal,
+            demoLink:'https://app.netlify.com/sites/superlative-dango-0dc941/overview',
+            codeLink:'https://github.com/xclusive-3G/Modal'
 
         }
     ]

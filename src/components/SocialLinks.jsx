@@ -53,7 +53,8 @@ const SocialLinks = () => {
                 opacity:1
             }}
             transition={{
-                duration:4
+                duration:6,
+                stiffness:200
             }}
         >
             <ul>
