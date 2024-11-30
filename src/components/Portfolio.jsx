@@ -3,6 +3,7 @@ import spaceWeb from './Assets/images/portfolio/spaceWeb.PNG'
 import portfolioImg from './Assets/images/portfolio/portfolio.PNG'
 import ccusingann from './Assets/images/portfolio/cc_using_ann.PNG'
 import modal from './Assets/images/portfolio/modal.PNG'
+import fanta from './Assets/images/portfolio/fanta.PNG'
 
 import { motion } from 'framer-motion'
 
@@ -36,6 +37,12 @@ const Portfolio = () => {
             demoLink:'https://app.netlify.com/sites/superlative-dango-0dc941/overview',
             codeLink:'https://github.com/xclusive-3G/Modal'
 
+        },
+        {
+            id:5,
+            imgscr:fanta,
+            demoLink:"https://674af1dfc73b73ef038b35b2--sekanicokeweb.netlify.app/",
+            codeLink:"https://github.com/xclusive-3G/cokeWebDesign"
         }
     ]
     return (
