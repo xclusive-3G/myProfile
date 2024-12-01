@@ -1,7 +1,10 @@
 import React from 'react'
+// adding Profile Image 
 import homeImage from './Assets/images/displayImage.jpeg'
 import { FaArrowRight } from "react-icons/fa6";
+// adding react scroll
 import { Link } from "react-scroll"
+// adding frame motion
 import { motion } from 'framer-motion';
 
 
