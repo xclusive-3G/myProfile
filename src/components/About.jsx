@@ -13,6 +13,7 @@ const About = () => {
                     y:0
                 }}
                 transition={{ duration:5, stiffness:500, type:'spring'}}
+                viewport={{once:false,amount:0.7}}
             >
                 <h1 className='text-3xl font-bold text-green-500'>About.</h1>
                 <div className='px-4 text-white py-4'>
