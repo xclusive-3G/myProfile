@@ -13,7 +13,8 @@ export const fade = (direction, delay) => {
                 type:"spring",
                 duration: 1.2,
                 delay: delay,
-                ease:'easeInOut'
+                ease:'easeInOut',
+                stiffness:500
             }
         }
     }
