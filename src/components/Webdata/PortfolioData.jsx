@@ -4,6 +4,8 @@ import ccusingann from '../Assets/images/portfolio/cc_using_ann.PNG'
 import modal from '../Assets/images/portfolio/modal.PNG'
 import fanta from '../Assets/images/portfolio/fanta.PNG'
 import ecom from '../Assets/images/portfolio/ecom.PNG'
+import simon from '../Assets/images/portfolio/simon.PNG'
+import file from '../Assets/images/portfolio/filestructure.PNG'
 
 export const portfolio = [
     {
@@ -45,5 +47,17 @@ export const portfolio = [
         imgscr:ecom,
         demoLink:"https://sekani-store.netlify.app/",
         codeLink:"https://github.com/xclusive-3G/e-commerce-"
+    },
+    {
+        id:7,
+        imgscr:simon,
+        demoLink:"https://simons-game-task.netlify.app/",
+        codeLink:"https://github.com/xclusive-3G/simon-game"
+    },
+    {
+        id:8,
+        imgscr:file,
+        demoLink:"https://folder-test-structure.netlify.app",
+        codeLink:"https://github.com/xclusive-3G/folder-structure"
     }
 ]
