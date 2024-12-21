@@ -57,12 +57,12 @@ export const experienceData = [
         id: 8,
         title: 'bash',
         src: bash,
-        style: ' shadow-black'
+        style: ' shadow-blue-600'
     },{
         id: 9,
         title: 'Redux',
         src: redux,
-        style: ' shadow-purple-500'
+        style: 'shadow-gray-500'
     }
 
 

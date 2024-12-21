@@ -12,7 +12,7 @@ const Experience = () => {
                 <div className=' justify-center items-center w-full  grid gird-cols-2 sm:grid-cols-3 text-center py-8 gap-8 sm:px-0'>
                     {experienceData && experienceData.map(({ id, title, src, style }) => (
                         <div key={id} className={`shadow-md hover:scale-105 duration-200 py-2 rounded-lg ${style}`}>
-                            <img src={src} alt='img' className='w-1/2 mx-auto ' />
+                            <img src={src} alt='img' className='w-1/2  mx-auto ' />
                             <p className='mt-4 text-white uppercase text-sm'>{title}</p>
                         </div>
                     ))}
