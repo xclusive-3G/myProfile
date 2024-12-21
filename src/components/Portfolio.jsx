@@ -30,7 +30,7 @@ const Portfolio = () => {
                     >
                         <img src={imgscr} alt="" className=' rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center text-white'>
-                            <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={demoLink}>Demo</a></button>
+                            <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={demoLink}>View</a></button>
                             <button className='w-1/2 duration-200  py-3 m-4 hover:scale-105'><a href={codeLink}>Code</a></button>
                         </div>
                     </motion.div>
