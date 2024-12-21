@@ -12,7 +12,7 @@ import {fade} from './Amination/Fade'
 
 export const Homepage = () => {
   const TitleFadeAmination = fade("left",0.4)
-  const subTitleAmination = fade("up",0.8)
+  const subTitleAmination = fade("up",0.5)
   return (
     <div name="home" className='w-full h-full   md:h-screen justify-center flex bg-gradient-to-b from-black to-gray-500 '>
       <div className=' grid md:flex px-10  py-2 mt-5 md:grid-cols-2 md:w-3/4 h-full  items-center'>
