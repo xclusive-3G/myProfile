@@ -6,6 +6,7 @@ import fanta from '../Assets/images/portfolio/fanta.PNG'
 import ecom from '../Assets/images/portfolio/ecom.PNG'
 import simon from '../Assets/images/portfolio/simon.PNG'
 import file from '../Assets/images/portfolio/filestructure.PNG'
+import todo from '../Assets/images/portfolio/todolist.PNG'
 
 export const portfolio = [
     {
@@ -59,5 +60,11 @@ export const portfolio = [
         imgscr:file,
         demoLink:"https://folder-test-structure.netlify.app",
         codeLink:"https://github.com/xclusive-3G/folder-structure"
+    },
+    {
+        id:9,
+        imgscr:todo,
+        demoLink:"https://todo-lis-by-sekani.netlify.app",
+        codeLink:"https://github.com/xclusive-3G/todoList_React"
     }
 ]
