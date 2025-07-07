@@ -19,7 +19,7 @@ export const portfolio = [
     },
     {
         id:2,
-        imgscr:shoplikeitF,
+        imgscr:dashboard,
         demoLink:"https://shop-like-it-dashboard.netlify.app/",
         codeLink:"https://github.com/xclusive-3G/Shot-like-it-DashBoard-Frontend"
     },
@@ -77,7 +77,7 @@ export const portfolio = [
     },
     {
         id:11,
-        imgscr:dashboard,
+        imgscr:todo,
         demoLink:"https://todo-lis-by-sekani.netlify.app",
         codeLink:"https://github.com/xclusive-3G/todoList_React"
     }
