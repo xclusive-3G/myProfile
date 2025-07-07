@@ -8,7 +8,7 @@ import simon from '../Assets/images/portfolio/simon.PNG'
 import file from '../Assets/images/portfolio/filestructure.PNG'
 import todo from '../Assets/images/portfolio/todolist.PNG'
 import shoplikeitF from '../Assets/images/portfolio/shoplikeitF.png'
-import dashboard from '../Assets/images/portfolio/dashboard.PNG'
+import dashboard from '../Assets/images/portfolio/dashboard.png'
 
 export const portfolio = [
     {
