@@ -7,7 +7,7 @@ import ecom from '../Assets/images/portfolio/ecom.PNG'
 import simon from '../Assets/images/portfolio/simon.PNG'
 import file from '../Assets/images/portfolio/filestructure.PNG'
 import todo from '../Assets/images/portfolio/todolist.PNG'
-import shoplikeitF from '../Assets/images/portfolio/shoplikeitF.PNG'
+import shoplikeitF from '../Assets/images/portfolio/shoplikeitF.png'
 import dashboard from '../Assets/images/portfolio/dashboard.PNG'
 
 export const portfolio = [
@@ -15,7 +15,7 @@ export const portfolio = [
         id:1,
         imgscr:shoplikeitF ,
         demoLink:"https://shop-like-it.netlify.app/",
-        codeLink:"https://github.com/xclusive-3G/myProfile"
+        codeLink:"https://github.com/xclusive-3G/shop-like-it-user-interface-frontend"
     },
     {
         id:2,
