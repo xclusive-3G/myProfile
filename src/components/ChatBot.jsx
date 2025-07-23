@@ -47,7 +47,7 @@ const ChatBot = () => {
                 </button>
             ) :
             isOpen && (
-                <div className='w-80 h-96 bg-white shadow-xl rounded-xl flex flex-col overflow-hidden border border-gray-300'>
+                <div className=' w-60 md:w-80 h-96 bg-white shadow-xl rounded-xl flex flex-col overflow-hidden border border-gray-300'>
                     <div className='bg-green-500 text-white p-3 text-center font-semibold flex items-center justify-between'>
                         <p>Ask Me Anything 👋</p>
                         <p className='text-red-600 cursor-pointer p-1' onClick={()=>setIsOpen(false)}><IoCloseSharp size={25} /></p>
