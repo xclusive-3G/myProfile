@@ -43,13 +43,13 @@ const ChatBot = () => {
                     onClick={() => setIsOpen(true)} 
                     className='group bg-green-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-600 transition-colors'
                 >
-                    <span className='block group-hover:hidden'><BsChatFill size={25} /></span><span className='hidden group-hover:block'>Chat with me</span>
+                    <span className='block group-hover:hidden animate-pulse'><BsChatFill size={25} /></span><span className='hidden group-hover:block'>Chat with me</span>
                 </button>
             ) :
             isOpen && (
                 <div className=' w-60 md:w-80 h-96 bg-white shadow-xl rounded-xl flex flex-col overflow-hidden border border-gray-300'>
                     <div className='bg-green-500 text-white p-3 text-center font-semibold flex items-center justify-between'>
-                        <p>Ask Me Anything 👋</p>
+                        <p>Ask Me About Ayomide 👋</p>
                         <p className='text-red-600 cursor-pointer p-1' onClick={()=>setIsOpen(false)}><IoCloseSharp size={25} /></p>
                     </div>
                     
@@ -66,7 +66,7 @@ const ChatBot = () => {
                             type='text' 
                             value={input} 
                             onChange={(e) => setInput(e.target.value)} 
-                            className='flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
+                            className='flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500'
                             placeholder='Type your message...'
                             onKeyDown={(e) => {
                                 if (e.key === 'Enter') handleSend();
@@ -74,7 +74,7 @@ const ChatBot = () => {
                         />
                         <button 
                             onClick={handleSend} 
-                            className='bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors'
+                            className='hidden md:block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors '
                         >
                             Send
                         </button>
