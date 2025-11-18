@@ -48,7 +48,7 @@ const ChatBot = () => {
             ) :
             isOpen && (
                 <div className=' w-60 md:w-80 h-96 bg-white shadow-xl rounded-xl flex flex-col overflow-hidden border border-gray-300'>
-                    <div className='bg-green-500 text-white p-3 text-center font-semibold flex items-center justify-between'>
+                    <div className='bg-gray-600 text-white p-3 text-center font-semibold flex items-center justify-between'>
                         <p className='text-sm md:text-md'>Ask Me About Ayomide 👋</p>
                         <p className='text-red-600 cursor-pointer p-1' onClick={()=>setIsOpen(false)}><IoCloseSharp size={25} /></p>
                     </div>
@@ -61,12 +61,13 @@ const ChatBot = () => {
                         ))}
 
                     </div>
-                    <div className='p-2 border-t flex gap-2'>
+                    
+                    <div className=' py-2   flex gap-2 items-center border-t border-gray-300 px-3 '>
                         <input 
                             type='text' 
                             value={input} 
                             onChange={(e) => setInput(e.target.value)} 
-                            className='flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500'
+                            className='flex-1 p-2 border rounded-lg w-28 focus:outline-none focus:ring-2 focus:ring-gray-500'
                             placeholder='Type your message...'
                             onKeyDown={(e) => {
                                 if (e.key === 'Enter') handleSend();
@@ -74,7 +75,7 @@ const ChatBot = () => {
                         />
                         <button 
                             onClick={handleSend} 
-                            className='hidden md:block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors '
+                            className='hidden md:block bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors '
                         >
                             Send
                         </button>

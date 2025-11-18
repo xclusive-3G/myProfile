@@ -15,8 +15,8 @@ export const Homepage = () => {
   const subTitleAmination = fade("up",0.5)
   return (
     <div name="home" className='w-full h-full   md:h-screen justify-center flex bg-gradient-to-b from-black to-gray-500 '>
-      <div className=' grid md:flex px-10  py-2 mt-5 md:grid-cols-2 md:w-3/4 h-full  items-center'>
-        <div className='md:w-1/2 order-2 md:order-1 mt-4'>
+      <div className=' grid md:flex px-10  py-2 mt-5 md:grid-cols-2 md:max-w-screen-md lg:max-w-screen-xl  h-full  items-center'>
+        <div className='md:w-2/3 order-2 md:order-1 mt-4'>
           <motion.h3
           className='text-green-500 text-3xl font-bold md:pt-20 md:pb-4'
           variants={TitleFadeAmination}

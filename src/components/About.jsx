@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const About = () => {
     return (
         <div name="about" className='w-full h-full px-4 py-16 flex justify-center items-center bg-gradient-to-b from-gray-500 to-black'>
-            <motion.div className=' md:w-3/4 w-screen  h-full'
+            <motion.div className=' md:max-w-screen-xl w-screen  h-full'
                 initial={{
                     y:120
                 }}
