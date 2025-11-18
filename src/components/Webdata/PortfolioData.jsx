@@ -9,7 +9,7 @@ import file from '../Assets/images/portfolio/filestructure.PNG'
 import todo from '../Assets/images/portfolio/todolist.PNG'
 import shoplikeitF from '../Assets/images/portfolio/shoplikeitF.png'
 import dashboard from '../Assets/images/portfolio/dashboard.png'
-import { title } from 'framer-motion/client'
+
 
 export const portfolio = [
     {
